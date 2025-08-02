@@ -1,0 +1,22 @@
+train:
+  epochs: 200
+  batch_size: 8
+  lr: 1.0e-3
+  time_split_len: 10
+  device: 'cuda:0'
+
+
+encoder:
+  F_in: 1
+  F_latent: 32
+  n_regions: 17
+  che_layers: 2
+  spatial_layers: 2
+
+decoder:
+  F_latent: 32
+  n_regions: 17
+  layers: 2
+
+
+
